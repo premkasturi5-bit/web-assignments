@@ -1,1 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial;
+            background: #f2f2f2;
+            scroll-behavior: smooth;
+        }
+
+        header {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav {
+            background: #444;
+            padding: 15px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 12px;
+        }
+
+        nav a:hover {
+            color: yellow;
+        }
+
+        section {
+            background: white;
+            margin: 20px;
+            padding: 25px;
+            border-radius: 10px;
+            animation: fade 1s;
+        }
+
+        h2 {
+            color: #0077cc;
+        }
+
+        .profile {
+            text-align: center;
+        }
+
+        .profile img {
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+        }
+
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        @keyframes fade {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @media(max-width: 600px) {
+            nav a {
+                display: inline-block;
+                margin: 7px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>My Personal Portfolio</h1>
+    <p>Welcome to My Website</p>
+</header>
+
+<nav>
+    <a href="#profile">Profile</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#hobbies">Hobbies</a>
+    <a href="#projects">Projects</a>
+    <a href="#achievements">Achievements</a>
+    <a href="#resume">Resume</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="profile" class="profile">
+    <h2>My Profile</h2>
+    <img src="C:\Users\PREM KUMAR\OneDrive\Desktop\web unit-3\IMG_20260729_201243.jpg.jpeg" alt="My Photo">
+    <h3>Prem Kumar</h3>
+    <p>I am a B.Tech student at NRI University.</p>
+</section>
+
+<section id="education">
+    <h2>Educational Qualifications</h2>
+    <p>B.Tech - NRI University</p>
+    <p>Intermediate - MPC</p>
+    <p>SSC - School Education</p>
+</section>
+
+<section id="skills">
+    <h2>Technical Skills</h2>
+    <p>HTML, CSS, Python, C Programming</p>
+</section>
+
+<section id="hobbies">
+    <h2>My Hobbies</h2>
+    <p>Playing Games, Listening to Music, Reading Books</p>
+</section>
+
+<section id="projects">
+    <h2>My Projects</h2>
+    <p>Personal Portfolio Website</p>
+    <p>Simple Calculator</p>
+</section>
+
+<section id="achievements">
+    <h2>Achievements</h2>
+    <p>Participated in Technical Events</p>
+    <p>Completed Programming Courses</p>
+</section>
+
+<section id="resume">
+    <h2>My Resume</h2>
+    <p>Click below to view my resume.</p>
+    <a href="resume.pdf" download>Download Resume</a>
+</section>
+
+<section id="contact">
+    <h2>Contact Information</h2>
+    <p>Email: yourmail@gmail.com</p>
+    <p>Phone: 1234567890</p>
+    <p>Location: India</p>
+</section>
+
+<footer>
+    <p>© 2026 Prem Kumar | My Portfolio</p>
+</footer>
+
+</body>
+</html>
 

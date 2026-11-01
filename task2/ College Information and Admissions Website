@@ -1,1 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ABC College</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            margin: 0;
+            background: #f2f2f2;
+        }
+
+        header {
+            background: #003366;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav {
+            background: #005599;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 12px;
+        }
+
+        .banner {
+            background: lightblue;
+            text-align: center;
+            padding: 50px;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .card {
+            background: white;
+            width: 250px;
+            margin: 15px;
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px;
+        }
+
+        h2 {
+            color: #003366;
+        }
+
+        footer {
+            background: #003366;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        @media(max-width: 600px) {
+            nav a {
+                display: block;
+                margin: 10px;
+            }
+
+            .card {
+                width: 85%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>ABC Engineering College</h1>
+    <p>Education For Better Future</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#departments">Departments</a>
+    <a href="#courses">Courses</a>
+    <a href="#admissions">Admissions</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="banner" id="home">
+    <h1>Welcome to ABC College</h1>
+    <p>Learn Today, Lead Tomorrow</p>
+</div>
+
+<section id="about">
+    <center>
+        <h2>About Our College</h2>
+        <p>ABC College provides quality education
+        and excellent learning opportunities.</p>
+    </center>
+</section>
+
+<h2 align="center" id="departments">Our Departments</h2>
+
+<div class="container">
+    <div class="card">
+        <h3>Computer Science</h3>
+        <p>Learn programming and technology.</p>
+    </div>
+
+    <div class="card">
+        <h3>Electronics</h3>
+        <p>Learn electronic systems.</p>
+    </div>
+
+    <div class="card">
+        <h3>Mechanical</h3>
+        <p>Learn machines and design.</p>
+    </div>
+</div>
+
+<h2 align="center" id="courses">Our Courses</h2>
+
+<div class="container">
+    <div class="card">
+        <h3>B.Tech</h3>
+        <p>4 Years Engineering Course</p>
+    </div>
+
+    <div class="card">
+        <h3>M.Tech</h3>
+        <p>2 Years Postgraduate Course</p>
+    </div>
+
+    <div class="card">
+        <h3>MBA</h3>
+        <p>Management Course</p>
+    </div>
+</div>
+
+<h2 align="center">Our Faculty</h2>
+
+<div class="container">
+    <div class="card">
+        <h3>Mr. Ravi</h3>
+        <p>Computer Science Professor</p>
+    </div>
+
+    <div class="card">
+        <h3>Mrs. Priya</h3>
+        <p>Electronics Professor</p>
+    </div>
+</div>
+
+<section id="admissions">
+    <center>
+        <h2>Admissions</h2>
+        <p>1. Apply Online</p>
+        <p>2. Submit Documents</p>
+        <p>3. Attend Counselling</p>
+        <p>4. Confirm Your Admission</p>
+    </center>
+</section>
+
+<h2 align="center">Campus Facilities</h2>
+
+<div class="container">
+    <div class="card">
+        <h3>Library</h3>
+        <p>Books and Study Materials</p>
+    </div>
+
+    <div class="card">
+        <h3>Computer Labs</h3>
+        <p>Modern Computer Facilities</p>
+    </div>
+
+    <div class="card">
+        <h3>Sports</h3>
+        <p>Indoor and Outdoor Games</p>
+    </div>
+</div>
+
+<section>
+    <center>
+        <h2>College Events</h2>
+        <p>Annual Day</p>
+        <p>Technical Fest</p>
+        <p>Sports Day</p>
+        <p>Cultural Activities</p>
+    </center>
+</section>
+
+<section id="contact">
+    <center>
+        <h2>Contact Us</h2>
+        <p>Email: abccollege@gmail.com</p>
+        <p>Phone: 9876543210</p>
+        <p>Address: Hyderabad, Telangana</p>
+    </center>
+</section>
+
+<footer>
+    <p>© 2026 ABC Engineering College</p>
+</footer>
+
+</body>
+</html>
 
